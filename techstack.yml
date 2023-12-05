@@ -1,11 +1,11 @@
 repo_name: ss-test-dabhi-org/openai-java
-report_id: e969d41d86b1362b00b1e0e5a031ac38
+report_id: ef53bb995dd0645a7b40b703f4ddf587
 repo_type: Public
-timestamp: '2023-11-10T07:22:43+00:00'
+timestamp: '2023-12-05T15:29:33+00:00'
 requested_by: TheoKanning
 provider: github
 branch: main
-detected_tools_count: 4
+detected_tools_count: 5
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -34,7 +34,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source: ".github/workflows/gradle-wrapper-validation.yml"
   last_updated_by: Nelson Osacky
   last_updated_on: 2023-03-08 01:31:35.000000000 Z
 - name: Gradle
@@ -46,6 +46,17 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew.bat
+  detection_source: api/build.gradle
   last_updated_by: Theo Kanning
   last_updated_on: 2020-10-04 23:09:48.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: api/build.gradle
+  last_updated_by: Philip Müller
+  last_updated_on: 2023-06-19 16:14:26.000000000 Z
