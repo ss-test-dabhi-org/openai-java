@@ -1,12 +1,12 @@
 repo_name: ss-test-dabhi-org/openai-java
-report_id: f74dca770ec7299738edc4cae4738f49
+report_id: 2f1139f0638db411a28e033aeeb93978
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-19T09:28:59+00:00'
+timestamp: '2023-12-19T12:32:33+00:00'
 requested_by: TheoKanning
 provider: github
 branch: main
-detected_tools_count: 4
+detected_tools_count: 5
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -50,3 +50,14 @@ tools:
   detection_source: api/build.gradle
   last_updated_by: Theo Kanning
   last_updated_on: 2020-10-04 23:09:48.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: api/build.gradle
+  last_updated_by: Philip Müller
+  last_updated_on: 2023-06-19 16:14:26.000000000 Z
