@@ -28,7 +28,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ss-test-dabhi-org/openai-java](https://github.com/ss-test-dabhi-org/openai-java)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|5<br/>Tools used|01/05/24 <br/>Report generated|
+|4<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -73,15 +73,6 @@ Full tech stack [here](/techstack.md)
 
 </tr>
 </table>
-
-
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (1)</h2>
-
-## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (1)
-
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[org.junit.jupiter:junit-jupiter](https://junit.org/junit5/)|N/A|06/19/23|Philip Müller |EPL-2.0|N/A|
 
 <br/>
 <div align='center'>
